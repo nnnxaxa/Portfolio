@@ -1,0 +1,109 @@
+
+*{
+    margin 10px;
+    padding 10px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font{
+        color: #fffffF;
+    }
+}
+
+body{
+    background: url(/img/Background\ Image.png);
+    background-size: cover;
+    color: #ffffffff;
+    mid-height: 100vh;
+    background-color: #0B0E10
+    
+}
+.glassnav {
+    position: absolute;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px; 
+    display: flex;
+    justify-content: relative;
+    align-items: relative;
+    width: 500px;
+    height: 400px;
+    top: 18%;
+    left: 3%;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 0;
+ }
+
+.glass {     position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px; 
+    display: flex;
+    justify-content: relative;
+    align-items: relative;
+    width: 650px;
+    height: 400px;
+    top: 18%;
+    left: 45%;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: -1;
+    }
+
+.p {
+    top: 30%;
+    left: 0%;
+    position: absolute;
+    font-size:16px;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+
+}
+.portfolio {
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    left: 0%;
+    top: 0%;
+    position: top;
+    margin-top: -70px;
+    margin-left: 77px;
+}
+
+.profile-pic {
+    left: 6%;
+    top:23%;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #fffffF;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+
+.navbar {
+    top: 100px;
+    left: 30%;
+    text-align: left;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.name {
+    position: absolute;
+    top: 118px;
+    left: 160px;
+    z-index: 1;
+    font-size: 35px;
+}
